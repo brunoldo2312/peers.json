@@ -1,0 +1,10 @@
+iniciar.bat
+*.bat
+bridge_state.json
+bridge_onramp_state.json
+brn_v2_chain.db
+brn_v2_chain.db-wal
+brn_v2_chain.db-shm
+node_uuid.txt
+peers_discovered.json
+wallets/
