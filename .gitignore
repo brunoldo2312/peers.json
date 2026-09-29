@@ -1,10 +1,17 @@
-iniciar.bat
-*.bat
-bridge_state.json
-bridge_onramp_state.json
-brn_v2_chain.db
-brn_v2_chain.db-wal
-brn_v2_chain.db-shm
-node_uuid.txt
-peers_discovered.json
-wallets/
+# ⚠️ Arquivos secretos — NÃO envie para o GitHub
+.env
+
+# Arquivos do Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Arquivos de banco de dados
+*.db
+brn_*.db
+
+# Arquivos temporários
+*.log
+.DS_Store
+Thumbs.db
